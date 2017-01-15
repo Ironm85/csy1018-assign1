@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>My</title>
+    <meta name="description" content="My Assignment">
+    <meta name="author" content="Marius">
+    
+    <!-- LOAD CSS STYLE -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- MAIN CONTAINER DIV -->
+    <div id="container">
+       <!-- HEADER DIV -->
+	   <div id="header">
+           <h1>Marius</h1>
+	   </div>
+    <!-- NAVIGATION DIV -->
+	<div id="navbar">
+	   <nav>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="bio.html">Biography</a></li>
+               <li><a href="cv.html">CV</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </nav>
+        </div>
+    <!-- PAGE CONTENT DIV -->
+	<div id="content">
+		<h2>Contact me</h2>
+        <!-- CONTACT FORM -->
+        <form method="post" action="#">
+            <label for="Name">Name:</label>
+			<input type="text" name="name" id="Name" placeholder="Name" required="required" />
+	
+			<label for="Email">Email:</label>
+			<input type="email" name="Email" id="Email" placeholder="Email" required="required"  />
+				
+			<label for="Message">Message:</label><br />
+			<textarea name="Message" rows="20" cols="20" id="Message"></textarea><br />
+
+			<input type="submit" name="submit" value="Submit" class="submit-button" />
+            
+            <!-- SOCIAL ICONS -->
+            <div id="social-icons">
+                <a href="http://www.linkedin.com"><img class="linkedin" src="img/lin.jpg" alt="LinkedIn" /></a>
+                <a href="http://www.twitter.com"><img class="twitter" src="img/twt.jpg" alt="Twitter" /></a>
+            </div>
+        </form>
+	</div>
+    <!-- PROFILE IMAGE -->
+	<div id="imagebar">
+	     <img class="img-round" src="img/profile1.png" alt="Profile Image" />
+	</div>
+    <!-- FOOTER -->
+	<div id="footer">
+		<p>Copyright 2016</p>
+    </div>
+  </div>
+</body>
+</html>
