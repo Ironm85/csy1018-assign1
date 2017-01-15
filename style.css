@@ -1,0 +1,221 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+/* --- LAYOUT --- */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #E6E6E6;
+	font-family: 'Roboto Slab', serif;
+}
+
+#container {
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #E6E6E6;
+}
+
+/* HEADER STYLE */
+#header{
+	height:100px;
+	margin-top: 25px;
+	background-color:#fae596;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	}
+	
+#header h1 {
+	font-size: 36px;
+}
+
+/* NAVIGATION BAR */
+#navbar {
+	height: 40px;
+	background-color: #3fb0ac;
+	padding-top: 10px;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+	padding-left: 15px;
+    overflow: hidden;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+	padding: 5px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: #173e43;
+    border-radius: 5px;
+}
+
+/* MAIN CONTENT */
+#content {
+    float: left;
+    background: #fff;
+    width: 690px;
+	padding: 15px;
+	margin-top: 10px;
+	border-radius: 5px;
+	min-height: 500px;
+	margin-bottom: 10px;
+}
+
+/* RIGHT BAR - PROFILE IMAGE */
+#imagebar {
+    background: #fff;
+    width: 220px;
+    float: left;
+	padding: 15px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.img-round {
+    height: 165px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+/* FOOTER */
+#footer {
+    height: 35px;
+    width: 980px;
+	background-color:#fae596;
+	text-align: center;
+	border-radius: 5px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+#footer p {
+    padding: 10px;
+}
+
+/* SOCIAL ICONS ON CONTACT PAGE */
+#social-icons{
+    margin-left: 115px;
+}
+
+/* CONTACT PAGE FORM STYLE */
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 12px;
+}
+
+input {
+	padding: 5px;
+	width: 500px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+textarea {
+	height: 90px;
+    width: 505px;
+    font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+
+textarea:focus, input:focus {
+	border: 2px solid #900;
+}
+
+input.submit-button {
+	width: 100px;
+	margin-left: 115px;
+    background-color: #3fb0ac;
+    color: #fff;
+    border: none;
+}
+/* Social Media Icons Style  */
+.linkedin
+{
+    width: 40px;
+}
+.twitter
+{
+    width: 38px;
+}
+/* CV first paragraph CSS code just for font styling */ 
+/* This code also applied on My Biography page bio.html */
+#content .cvparagraph
+{
+    font-family: 'Open Sans', verdana, helvetica, 'sans-serif';
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-align: justify;
+    word-spacing: -1px;
+}
+/*Defining a row */
+.row
+{
+    width: 620px;
+}
+/* Assign the Width to the skills portion*/
+.skills
+{
+    width: 310px;
+    float: left;
+    font-family: 'Open Sans', verdana, helvetica, 'sans-serif';
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-align: justify;
+    word-spacing: -1px;
+}
+/* Styling H3 Inside skills div */
+.skills h3
+{
+    margin-left: 21px;
+}
+.itskills
+{
+    margin-left: 60px;
+}
+/* Styling Education */
+.education
+{
+    float: left;
+    font-family: 'Open Sans', verdana, helvetica, 'sans-serif';
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-align: justify;
+    word-spacing: -1px;
+}
+/* Styling Work Expereince */
+.workexperience
+{
+    float: left;
+    font-family: 'Open Sans', verdana, helvetica, 'sans-serif';
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-align: justify;
+    word-spacing: -1px;
+}
